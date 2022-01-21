@@ -66,7 +66,6 @@ function updateFilters() {
 
     })
     
-  
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
   }
