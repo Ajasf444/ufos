@@ -62,7 +62,7 @@ function updateFilters() {
     // matches the filter values
     Object.entries(filters).forEach(([key, value]) => {
 
-      filteredData = filteredData.filter(row => row[key] === value);
+      filteredData = filteredData.filter(row => row[key].toUpperCase() === value.toUpperCase());
 
     })
     
